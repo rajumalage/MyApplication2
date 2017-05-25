@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1c14c">
+
+
+    <Button
+        android:text="SIMPLE CALCULATOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FF00"/>
+
+    <Button
+        android:text="Currency Converter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FF00"/>
+
+    <Button
+        android:text="SORTING ALGORITHAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FF00"/>
+    <Button
+        android:text="SIMPLE ACTIVITY"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FF00"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

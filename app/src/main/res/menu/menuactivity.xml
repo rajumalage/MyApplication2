@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu">
+    <item android:title="Camera"
+        android:id="@+id/miCamera"/>
+    <item android:title="Galary"
+        android:id="@+id/miGalary"/>
+    <item android:title="SMS Message"
+        android:id="@+id/misms"/>
+    <item android:title="Dilar"
+        android:id="@+id/miDilar"/>
+    <item android:title="Emergency Call"
+        android:id="@+id/miEmergency"/>
+    <item android:title="What's APP"
+        android:id="@+id/miWhats"/>
+    <item android:title="Clear"
+        android:id="@+id/miclear"/>
+    <item android:title="PDF Reader"
+        android:id="@+id/mipdfreader"/>
+
+</menu>

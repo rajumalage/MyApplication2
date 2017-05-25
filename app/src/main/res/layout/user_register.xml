@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:text="Enter Your Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userName" />
+
+    <EditText
+        android:text="Enter Your E-mail ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailID" />
+
+    <EditText
+        android:text="Enter Your Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pwd" />
+
+    <EditText
+        android:text="Re-Enter Your Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/repwd" />
+    <EditText
+        android:id="@+id/displayDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Date of Birth"
+        android:textSize="15sp"/>
+    <Button android:id="@+id/pickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a date"/>
+
+    <RadioGroup
+        android:layout_width="104dp"
+        android:layout_height="75dp" >
+            <RadioButton
+                android:text="MALE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:text="FEMALE"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp" />
+        </RadioGroup>
+
+
+    <Button
+        android:text="SUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/sub" />
+</LinearLayout>

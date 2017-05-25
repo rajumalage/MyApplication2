@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/DullBlue">
+    <TextView android:text="Account Number:"
+        android:layout_x="30dp"
+        android:layout_y="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editNumber"
+        android:inputType="number"
+        android:layout_x="150dp"
+        android:layout_y="50dp"
+        android:maxLength="15"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+    <Button
+        android:id="@+id/bkdis"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="135dp"
+        android:background="@drawable/bankbutton"
+        android:text="Account Detail's" />
+
+
+</LinearLayout>

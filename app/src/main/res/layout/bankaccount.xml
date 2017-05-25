@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    >
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ANDROID BANK"
+            android:textSize="40sp"
+            android:typeface="serif"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+        <Button
+            android:id="@+id/bknew"
+            android:layout_width="135dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bankbutton"
+            android:text="Create Account" />
+
+        <Button
+            android:id="@+id/bkdis"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bankbutton"
+            android:text="Account Detail's" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bkdpt"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bankbutton"
+            android:text="Deposit Money" />
+
+        <Button
+            android:id="@+id/bkwdr"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bkdpt"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bankbutton"
+            android:text="Withdraw Money" />
+    </LinearLayout>
+</LinearLayout>
+

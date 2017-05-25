@@ -1,0 +1,31 @@
+{
+  "questions": [
+    {
+      "id": "a200",
+      "question": "lorem ipsum dolor _______ amet",
+      "optionA": "lorem",
+      "optionB": "ipsum",
+      "optionC": "dolor",
+      "optionD": "sit",
+      "rightAnswer": "sit"
+    },
+    {
+      "id": "b200",
+      "question": "_____ ipsum dolor sit amet",
+      "optionA": "lorem",
+      "optionB": "ipsum",
+      "optionC": "dolor",
+      "optionD": "sit",
+      "rightAnswer": "lorem"
+    },
+    {
+      "id": "c200",
+      "question": "lorem _____ dolor sit amet",
+      "optionA": "lorem",
+      "optionB": "ipsum",
+      "optionC": "dolor",
+      "optionD": "sit",
+      "rightAnswer": "ipsum"
+    }
+  ]
+}

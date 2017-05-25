@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="menu_settings">Settings</string>
+
+   <!-- <string name="app_name">My Application</string>  -->
+    <string name="pinch_title">Pinch Image</string>
+    <string name="hello_world">Conversions</string>
+    <string name="second_actEdit">Enter Amount</string>
+    <string name="first_number">Enter the first number:</string>
+    <string name="second_number">Enter the second number:</string>
+    <string name="c_button1">To Dollars</string>
+    <string name="c_button2">To Pounds</string>
+    <string name="submit">Submit</string>
+    <string name="ToEuro">To Euro</string>
+    <string name="ToDinaar">To Dinar</string>
+    <string name="username">USER NMAE</string>
+    <string name="emailid">E-MAIL ID</string>
+    <string name="pnumber">MOBILE NUMBER</string>
+    <string name="pwd">PASSWORD</string>
+    <string name="rpwd">RE-PASSWORD</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+
+    <string name="app_name">Login Register</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+    <color name="Black">#0b0a0a</color>
+
+    <!-- MainActivity Strings -->
+
+
+</resources>

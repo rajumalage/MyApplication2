@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.india.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--  <activity
+             android:name=".SensarShake"
+             android:label="@string/app_name" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+         <service android:name="com.example.india.myapplication.utility.MyService"></service>
+
+        <activity
+               android:name=".Reg_Form"
+               android:label="USER REGISTRATION">
+               <intent-filter>
+                   <action android:name="android.intent.action.MAIN" />
+
+                   <category android:name="android.intent.category.LAUNCHER" />
+               </intent-filter>
+           </activity>
+         <activity
+             android:name=".NewActivity"
+             android:label="New Activity">
+             <intent-filter>
+                 <action android:name="com.example.india.myapplication.NewActivity" />
+
+                 <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+         </activity> -->
+        <!--    <activity
+               android:name=".InstaCamZoom"
+               android:label="Instagram Cam">
+               <intent-filter>
+                   <action android:name="android.intent.action.MAIN" />
+
+                   <category android:name="android.intent.category.LAUNCHER" />
+               </intent-filter>
+           </activity>
+
+
+                                   <activity
+                                       android:name=".MusicPlayer"
+                                       android:label="Music Player">
+                                       <intent-filter>
+                                           <action android:name="android.intent.action.MAIN" />
+
+                                           <category android:name="android.intent.category.LAUNCHER" />
+                                       </intent-filter>
+                                   </activity>
+
+
+                                          <activity android:name="."
+                                                android:label="Instagram Cam">
+                                                <intent-filter>
+                                                    <action android:name="android.intent.action.MAIN" />
+
+                                                    <category android:name="android.intent.category.LAUNCHER" />
+                                                </intent-filter>
+                                            </activity>
+                                          <meta-data
+                                              android:name="com.google.android.gms.version"
+                                              android:value="@integer/google_play_services_version" />
+
+                                           <activity android:name=".InstaCam"
+                                                  android:label="Instagram Cam">
+                                                  <intent-filter>
+                                                      <action android:name="android.intent.action.MAIN" />
+
+                                                      <category android:name="android.intent.category.LAUNCHER" />
+                                                  </intent-filter>
+                                              </activity>
+
+                                                   <activity android:name=".POPcolor"
+                                                       android:label="Color Choice">
+                                                       <intent-filter>
+                                                           <action android:name="android.intent.action.MAIN" />
+
+                                                           <category android:name="android.intent.category.LAUNCHER" />
+                                                       </intent-filter>
+                                                   </activity>
+
+                                                   <activity android:name=".utility.SendEmailActivity"
+                                                       android:label="Sending E-mail Message">
+                                                       <intent-filter>
+                                                           <action android:name="android.intent.action.MAIN" />
+
+                                                           <category android:name="android.intent.category.LAUNCHER" />
+                                                       </intent-filter>
+
+                                                   </activity>
+
+                                                   <activity android:name=".email_pass"
+                                                       android:label="Sending Email Password">
+                                                       <intent-filter>
+                                                           <action android:name="android.intent.action.MAIN" />
+
+                                                           <category android:name="android.intent.category.LAUNCHER" />
+                                                       </intent-filter>
+
+                                                   </activity>
+
+
+
+
+                                                   <activity
+                                                       android:name=".ActivityMain"
+                                                       android:label="MY APPLICATION">
+                                                       <intent-filter>
+                                                           <action android:name="android.intent.action.MAIN" />
+
+                                                           <category android:name="android.intent.category.LAUNCHER" />
+                                                       </intent-filter>
+                                                   </activity>
+                                                   <activity
+                                                       android:name=".Calc"
+                                                       android:label="SIMPLE CALCULATOR">
+                                                       <intent-filter>
+                                                           <action android:name="com.example.india.myapplication.Calc" />
+
+                                                           <category android:name="android.intent.category.DEFAULT" />
+                                                       </intent-filter>
+                                                   </activity>
+                                                   <activity
+                                                       android:name=".ConvertMoney"
+                                                       android:label="Currency Converter">
+                                                       <intent-filter>
+                                                           <action android:name="com.example.india.myapplication.ConvertMoney" />
+
+                                                           <category android:name="android.intent.category.DEFAULT" />
+                                                       </intent-filter>
+                                                   </activity>
+                                                   <activity
+                                                       android:name=".AlgoBenchmarkActivity"
+                                                       android:label="Sorting Algoritham">
+                                                       <intent-filter>
+                                                           <action android:name="com.example.india.myapplication.AlgoBenchmarkActivity" />
+
+                                                           <category android:name="android.intent.category.DEFAULT" />
+                                                       </intent-filter>
+                                                   </activity>
+                                                   <activity
+                                                       android:name=".NewActivity"
+                                                       android:label="New Activity">
+                                                       <intent-filter>
+                                                           <action android:name="com.example.india.myapplication.NewActivity" />
+
+                                                           <category android:name="android.intent.category.DEFAULT" />
+                                                       </intent-filter>
+                                                   </activity>
+           -->
+
+      <!--  <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.net.wife.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wife.STATE_CHANGE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ZoomingImage1"
+            android:label="@string/pinch_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".PDFListActivity"
+            android:label="PDF Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".ListViewAndroidExample"
+        android:label="Color List">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+        <activity android:name=".Compass_Activity"
+            android:label="Compass Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EmployeesListActivity"
+            android:label="Employee Details">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu_Activity"
+            android:label="Menu Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Context_Menu"
+            android:label="Context Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OnlineAudioPlayActivity"
+            android:label="Online Audio Player">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".VideoplayActivity"
+            android:label="Online Video Player">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".VideoViewActivity" />
+
+        <activity android:name=".InternalVideoPlayActivity"
+            android:label="Offline Video Player">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".utility.MainAdapter"
+            android:label="Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mcqmain"
+            android:label="Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+               <activity android:name=".ParseJsonAndroidExample"
+            android:label="Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".ReadingDataFromAsset"
+            android:label="Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".QuizActivityAdjectives"
+            android:label="Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CatList"
+            android:label="Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".jsonMainActivity"
+            android:label="CSV Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BasicCalculatorActivity"
+            android:label="CSV Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".JSONMain"
+            android:label="CSV Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity"
+            android:label="CSV Detail's"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UsersListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".AccountCreate"
+            android:label="Bank Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AccountDisp"
+            android:label="CSV Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AccountDeposit"
+            android:label="Deposit Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AccountWithdraw"
+            android:label="Withdraw Detail's">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BankAccount"
+            android:label="Bank Application">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountCreate"
+            android:label="Account Create"/>
+        <activity android:name=".AccountDisp"
+            android:label="Account Detail's"/>
+        <activity android:name=".AccountDeposit"
+            android:label="Money Deposit"/>
+        <activity android:name=".AccountWithdraw"
+            android:label="Withdraw Money"/> -->
+
+        <activity android:name=".sqlitedb.MainActivity"
+            android:label="SQLite Application">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sqlitedb.StudentDetail"/>
+    </application>
+
+</manifest>
